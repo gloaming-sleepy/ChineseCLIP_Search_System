@@ -1,2 +1,0 @@
-bash run_scripts/flickr30k_finetune_vit-b-16_rbt-base_flip.sh /d/run/CLIP_models/Text2Image-Retrieval-main/datapath
-cd /d/run/CLIP_models/Text2Image-Retrieval-main/Chinese-CLIP
