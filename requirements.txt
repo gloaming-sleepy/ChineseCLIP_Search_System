@@ -1,0 +1,29 @@
+# 核心依赖
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Web 界面
+gradio>=3.50.0
+
+# ONNX 推理加速
+onnxruntime-gpu>=1.15.0  # GPU 版本，如果只有 CPU 改为 onnxruntime
+
+# 图像处理
+pillow>=9.0.0
+
+# 数据处理
+numpy>=1.21.0,<2.0  # 注意：numpy 2.x 可能与某些库不兼容
+pandas>=1.3.0
+tqdm>=4.62.0
+
+# 可视化（用于训练曲线绘制）
+matplotlib>=3.5.0
+
+# 中文 CLIP（需要从 Chinese-CLIP 仓库安装）
+# 安装方法：
+# cd Chinese-CLIP
+# pip install -e .
+
+# 其他工具
+ftfy>=6.0.0
+regex>=2021.0.0

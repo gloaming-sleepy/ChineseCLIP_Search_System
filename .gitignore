@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 大模型文件（需要用户自行下载）
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# 数据集（太大，不上传）
+datapath/datasets/
+datapath/experiments/checkpoints/
+datapath/experiments/*/out_*.log
+datapath/experiments/*/params_*.json
+datapath/pretrained_weights/*.pt
+
+# 特征库文件（较大）
+image_features.json
+
+# 临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 依赖目录（用户需要自己 clone 和安装）
+Chinese-CLIP/
+cn_clip/  # 如果是复制的包，不上传（用户应该通过 pip install 安装）
+
+# 保留这些文件（即使很大也要上传）
+!report_*.png
